@@ -1,0 +1,26 @@
+//numbers
+let length=16;
+let weight=7.5;
+
+
+//String
+let color="Blue";
+let fastName="John";
+
+
+//Booleans
+let x=true;
+let y=false;
+
+
+//object
+const persion={firstName:"John",lastName:"shina"};
+
+
+//Array object
+const cars =["Volvo","BMW","Audi"];
+
+
+
+//Data object
+const data=new Data ("22-11-2001");

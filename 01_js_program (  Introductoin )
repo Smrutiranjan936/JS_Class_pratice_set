@@ -1,1 +1,18 @@
+let x=25;
+let y=5;
+a=x+y;
+b=x-y;
+c=x*y;
+d=x/y;
+console.log(a);
 
+VM64:7 30
+undefined
+console.log(b);
+VM118:1 20
+undefined
+console.log(c);
+VM136:1 125
+undefined
+console.log(d);
+VM157:1 5

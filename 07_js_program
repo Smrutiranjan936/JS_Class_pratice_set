@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Output</title>
+</head>
+
+<body>
+    <h2>
+        Display prompt box for user input
+    </h2>
+
+    <script>
+        let userInput = window.prompt("Please Enter your Input");
+
+        if (userInput !== null) {
+            window.alert("Hello, " + userInput + "!");
+        } else {
+            window.alert("You clicked Cancel or closed the prompt.");
+        }
+    </script>
+</body>
+
+</html>

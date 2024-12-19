@@ -1,0 +1,11 @@
+const a = "Hello Smrutiranjan"
+console.log(a);
+
+const b = 400;
+console.log(b);
+
+const c = "12";
+console.log(c);
+// Can not change a value for a constant
+// c = "new"
+// console.log(c) will show error

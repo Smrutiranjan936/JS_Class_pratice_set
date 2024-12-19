@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>JavaScript window.print() Method</h2>
+
+    <button onclick="window.print()">
+          Click here to Print
+      </button>
+</body>
+
+</html>

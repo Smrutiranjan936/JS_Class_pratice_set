@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Output</title>
+</head>
+
+<body>
+    <h2>
+        Display Output using window.alert() Method
+    </h2>
+
+    <!-- Script to use window.alert() -->
+    <script>
+        window.alert("Hello Smruti !");
+    </script>
+</body>
+
+</html>

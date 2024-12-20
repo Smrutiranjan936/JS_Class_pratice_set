@@ -1,0 +1,7 @@
+let x = "Hello";
+console.log(!x);
+console.log(!!x);  
+
+let y = 20;
+console.log(!y);
+console.log(!!y);

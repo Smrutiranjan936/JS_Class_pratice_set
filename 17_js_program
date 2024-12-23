@@ -1,0 +1,18 @@
+// Number ** Number => Exponential of the number
+
+// let x = -4 ** 2 // This is an incorrect expression
+let y = -(4 ** 2);
+let z = 2 ** 5;
+let a = 3 ** 3;
+let b = 3 ** 2.5; 
+let c = 10 ** -2;
+let d = 2 ** 3 ** 2; 
+let e = NaN ** 2;
+
+console.log(y);
+console.log(z);
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);

@@ -1,0 +1,7 @@
+let username = null;
+let defaultName = "Guest";
+console.log(username ?? defaultName);
+
+username = "Kartik";
+defaultName = "Guest";
+console.log(username ?? defaultName);

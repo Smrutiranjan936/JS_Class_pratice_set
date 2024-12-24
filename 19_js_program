@@ -1,0 +1,11 @@
+const Data = {
+    name: "Rahul",
+    age: 21,
+    city: "Noida"
+};
+
+// true ("name" property exists in the object)
+console.log("name" in Data);
+
+// false ("gender" property doesn't exist in the object)
+console.log("address" in Data);

@@ -1,0 +1,6 @@
+let obj = {
+    name: "Sourav",
+    age: 23,
+    job: "Developer"
+};
+console.log(obj);

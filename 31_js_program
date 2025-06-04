@@ -1,0 +1,13 @@
+<script>
+    function f(k){
+        if(k.value == k.defaultValue){
+            k.value="";
+        }
+    }
+    function b(k){
+        if(k.value == ""){
+            k.value=k.defaultValue;
+        }
+    }
+</script>
+<input type="text" value="search" onfocus="f(this)" onblur="b(this)">

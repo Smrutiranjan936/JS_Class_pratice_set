@@ -1,0 +1,12 @@
+<script>
+    function show(k) {
+        document.getElementById("m").src="image/"+k.value;
+    }
+</script>
+<select onchange="show(this)">
+    <option value="img1.jpg">situn</option>
+    <option value="img2.jpg">smruti</option>
+    <option value="img3.jpg">nikhil</option>
+    <option value="img4.jpg">rusty</option>
+</select>
+<img src="image/img1.jpg" id="m" width="200" height="300">

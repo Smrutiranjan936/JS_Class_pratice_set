@@ -1,0 +1,10 @@
+<script>
+    function show(k) {
+        document.body.bgColor = k.value;
+    }
+</script>
+<select onchange="show(this)">
+    <option>red</option>
+    <option>blue</option>
+    <option>green</option>
+</select>

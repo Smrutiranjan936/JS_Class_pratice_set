@@ -1,0 +1,6 @@
+<script>
+    function show(){
+        document.write("Hello Smruti");
+    }
+</script>
+<input type="button" onclick="show()" value="Ok">

@@ -1,0 +1,7 @@
+<script>
+    function show(){
+        document.body.bgColor="aqua";
+    }
+</script>
+<body onload="show()">
+</body>

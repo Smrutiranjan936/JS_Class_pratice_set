@@ -3,8 +3,8 @@
         console.log(arguments);
     }
     let arr=[30,40,50];
-    show(10,20,arr);        //show 3 arguments
-    show(10,20,...arr);     //show 5 arguments
+    show(10,20,arr);         //show 3 arguments
+    show(10,20,...arr);      //show 5 arguments
 
     let arr1=[10,20,30];
     let arr2=[40,50];

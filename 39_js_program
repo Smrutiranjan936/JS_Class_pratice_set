@@ -1,0 +1,16 @@
+<script>
+    function score(name,...args){
+        let score=0;
+        for(let value of args){
+            score+=value;
+        }
+        document.write(`${name} scores ${score} runs <br>`);
+    }   
+    score('polad',10,20);
+    score('kohali',10,20,30);
+    score('pandia',10,20,30,40);
+    score('smruti',10,20,30,40,50);
+    score('thala',10,20,30,40,50,60);
+    score('rashmi',10,20,30,40,50,60,70);
+    score('nikhil',10,20,30,40,50,60,70,80);
+</script> 

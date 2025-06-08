@@ -1,0 +1,24 @@
+<script>
+    function show(){
+        console.log(arguments);
+    }
+    let arr=[30,40,50];
+    show(10,20,arr);        //show 3 arguments
+    show(10,20,...arr);     //show 5 arguments
+
+    let arr1=[10,20,30];
+    let arr2=[40,50];
+    let arr3=[...arr1,...arr2];
+    console.log(arr3);
+
+    let arr4=[10,20,30,40];
+    let arr5=arr4;
+    arr5.push(50);
+    console.log(arr4);
+
+    let arr6=[100,200,300];
+    let arr7=[...arr6];
+    arr7.push(400);
+    console.log(arr6);
+    console.log(arr7);
+</script>

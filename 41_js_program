@@ -1,0 +1,14 @@
+<script>
+    function show(){
+        document.write('This is show function <br>');
+    }
+    show();
+
+    const add=(a,b)=>{
+        document.write(a+b+'<br>');         
+    }
+    add(10,20);
+
+    const display=name=>document.write(`Hello, i am ${name}`);
+    display('Smrutiranjan');
+</script>

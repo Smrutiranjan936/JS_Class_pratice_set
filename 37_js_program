@@ -1,0 +1,12 @@
+<script>
+    const obj1={
+        name:'smrutiranjan',
+        email:'smrutiranjan@gmail.com'
+    }
+    const obj2={
+        age:'24',
+        phone:9090956092
+    }
+    const obj3={...obj1,...obj2};
+    console.log(obj3);
+</script>

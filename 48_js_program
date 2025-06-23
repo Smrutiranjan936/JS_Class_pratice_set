@@ -1,0 +1,9 @@
+<script>
+    let user={
+        name:'nikhil',
+        age:24,
+
+    }
+    let {name,age}=user
+    console.log(`${name}-$${age}`)
+</script>

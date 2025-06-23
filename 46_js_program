@@ -1,0 +1,9 @@
+<script>
+    let arr=['smrutiranjan',24];
+    // name=arr[0];
+    // age=arr[1];
+    // console.log(`${name}-${age}`)
+
+    let [name,age]=arr;
+    console.log(`${name}-${age}`)
+</script>

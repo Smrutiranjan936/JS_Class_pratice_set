@@ -1,0 +1,10 @@
+<script>
+    let name="smrutiranjan";
+    let age=24;
+    let obj={
+        name:name,
+        age,
+
+    };
+    console.log(obj);
+</script> 

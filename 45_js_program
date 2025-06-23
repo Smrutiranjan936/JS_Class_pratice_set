@@ -1,0 +1,19 @@
+<SCRIpt>
+    let name ='smrutiranjan';
+    let obj={
+        name,
+        show:function(){
+            console.log(`My name is ${this.name}`);
+        },
+        display(){
+            console.log(`This is display function`);
+        },
+        'my fun'(){
+            console.log('')
+        }
+    }
+    console.log(obj)
+    obj.show();
+    obj['display']()
+    obj['my fun']()
+</SCRIpt> 

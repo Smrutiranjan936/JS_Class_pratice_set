@@ -1,0 +1,11 @@
+<script>
+    let arr=[10,20,30,40];
+    arr.push(25);
+    console.log(arr);
+
+    arr.pop();
+    console.log(arr);
+
+    arr.splice(1);
+    console.log(arr);
+</script>

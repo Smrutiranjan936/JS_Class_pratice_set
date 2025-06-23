@@ -1,0 +1,5 @@
+<script>
+    let arr=['smrutiranjan',24,'smrutiranjan35@gmail.com'];
+    let [name='Nikhil',age=25,email='nikhil@gmail.com']=arr;
+    console.log(`${name}-${age}-${email}`)
+</script>

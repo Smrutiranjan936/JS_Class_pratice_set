@@ -1,0 +1,13 @@
+<script>
+    let name="smrutiranjan";
+    let n="college";
+    let x="name";
+    let age=24;
+    let obj={
+        name:name,
+        age,
+        [n]:'gec',
+        ['university'+x]:'bput'
+    };
+    console.log(obj);
+</script> 
